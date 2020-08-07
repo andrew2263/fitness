@@ -1,0 +1,43 @@
+.section {
+  padding: 120px 0;
+}
+
+.section_white {
+  background-color: #ffffff;
+}
+
+.section_gray {
+  background-color: #f8f9fc;
+}
+
+.section_adv h2 {
+  margin-bottom: 70px;
+}
+
+@media (max-width: 1023px) {
+  .section_adv h2 {
+    margin-bottom: 40px;
+  }
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+@media (max-width: 1023px) {
+  .section {
+    padding: 100px 0;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 70px 0;
+  }
+}

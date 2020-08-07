@@ -1,0 +1,107 @@
+.coaches h2 {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1023px) {
+  .coaches h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .coaches__container {
+    width: 566px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .coaches__container {
+    width: 226px;
+    margin: 0 auto;
+  }
+}
+
+.coaches__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coaches__item {
+  position: relative;
+  display: inline-block;
+}
+
+.coaches__info {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.coaches__info h3 {
+  position: absolute;
+  display: block;
+  top: 251px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  z-index: 100;
+}
+
+.coaches__about {
+  display: none;
+}
+
+.button_prev,
+.button_next {
+  width: 18px;
+  height: 34px;
+  border: none;
+  background-color: transparent;
+}
+
+.button_prev {  
+  background: url("../img/button-prev.svg");
+}
+
+.button_next {
+  background: url("../img/button-next.svg");
+}
+
+.coaches__button_prev {
+  position: absolute;
+  top: 230px;
+  left: -58px;
+}
+
+.coaches__button_next {
+  position: absolute;
+  top: 230px;
+  right: -58px;
+}
+
+@media (max-width: 1023px) {
+  .coaches__button_prev {
+    top: 213px;
+    left: 0;
+  }
+  
+  .coaches__button_next {
+    top: 213px;
+    right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .coaches__button_prev,
+  .coaches__button_next {
+    display: none;
+  }
+}
