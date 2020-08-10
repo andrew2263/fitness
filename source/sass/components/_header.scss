@@ -15,6 +15,13 @@
   font-weight: 700;
 }
 
+<<<<<<< HEAD
+=======
+.header__logo a:hover {
+  text-decoration: underline;
+}
+
+>>>>>>> f815cee28346defc5e937dd48d308565eb65ef30
 .header__phone {
   font-size: 26px;
   line-height: 26px;
@@ -26,7 +33,11 @@
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 @media (max-width: 1199px) {
+=======
+@media (max-width: 1023px) {
+>>>>>>> f815cee28346defc5e937dd48d308565eb65ef30
   .header {
     margin-top: 40px;
   }
