@@ -1,0 +1,148 @@
+<div class="swiper-container coaches__container">
+          <ul class="swiper-wrapper coaches__list">
+            <li class="coaches__item swiper-slide">
+              <picture>
+                <source srcset="img/anna-pavlova@226.jpg" media="(max-width:767px)">
+                <source srcset="img/anna-pavlova@268.jpg" media="(max-width:1023px)">
+                <img src="img/anna-pavlova@260.jpg" alt="Анна Павлова">
+              </picture>
+              <div class="coaches__info">
+                <h3>Анна Павлова</h3>
+                <div class="coaches__about">
+                  <p class="coaches__qualification">CrossFit</p>
+                  <ul class="coaches__skills">
+                    <li class="coaches__skill">Certified Level 2 Trainer</li>
+                    <li class="coaches__skill">Победитель чемпионата России по CrossFit</li>
+                    <li class="coaches__skill">Опыт — 3 года</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="coaches__item swiper-slide">
+              <picture>
+                <source srcset="img/alexei-lavrov@226.jpg" media="(max-width:767px)">
+                <source srcset="img/alexei-lavrov@268.jpg" media="(max-width:1023px)">
+                <img src="img/alexei-lavrov@260.jpg" alt="Алексей Лавров">
+              </picture>
+              <div class="coaches__info">
+                <h3>Алексей Лавров</h3>
+                <div class="coaches__about">
+                  <p class="coaches__qualification">CrossFit</p>
+                  <ul class="coaches__skills">
+                    <li class="coaches__skill">Certified Level 4 Trainer</li>
+                    <li class="coaches__skill">Победитель чемпионата России по CrossFit</li>
+                    <li class="coaches__skill">Опыт — 4 года</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="coaches__item swiper-slide">
+              <picture>
+                <source srcset="img/alexander-pashkov@226.jpg" media="(max-width:767px)">
+                <source srcset="img/alexander-pashkov@268.jpg" media="(max-width:1023px)">
+                <img src="img/alexander-pashkov@260.jpg" alt="Александр Пашков">
+              </picture>
+              <div class="coaches__info">
+                <h3>Александр Пашков</h3>
+                <div class="coaches__about">
+                  <p class="coaches__qualification">CrossFit</p>
+                  <ul class="coaches__skills">
+                    <li class="coaches__skill">Certified Level 3 Trainer</li>
+                    <li class="coaches__skill">Победитель чемпионата России по CrossFit</li>
+                    <li class="coaches__skill">Опыт — 6 лет</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="coaches__item swiper-slide">
+              <picture>
+                <source srcset="img/maria-ketova@226.jpg" media="(max-width:767px)">
+                <source srcset="img/maria-ketova@268.jpg" media="(max-width:1023px)">
+                <img src="img/maria-ketova@260.jpg" alt="Мария Кетова">
+              </picture>
+              <div class="coaches__info">
+                <h3>Мария Кетова</h3>
+                <div class="coaches__about">
+                  <p class="coaches__qualification">CrossFit</p>
+                  <ul class="coaches__skills">
+                    <li class="coaches__skill">Certified Level 4 Trainer</li>
+                    <li class="coaches__skill">Победитель чемпионата России по CrossFit</li>
+                    <li class="coaches__skill">Опыт — 7 лет</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="coaches__item swiper-slide">
+              <picture>
+                <source srcset="img/alexei-lavrov@226.jpg" media="(max-width:767px)">
+                <source srcset="img/alexei-lavrov@268.jpg" media="(max-width:1023px)">
+                <img src="img/alexei-lavrov@260.jpg" alt="Алексей Лавров">
+              </picture>
+              <div class="coaches__info">
+                <h3>Алексей Лавров</h3>
+                <div class="coaches__about">
+                  <p class="coaches__qualification">CrossFit</p>
+                  <ul class="coaches__skills">
+                    <li class="coaches__skill">Certified Level 4 Trainer</li>
+                    <li class="coaches__skill">Победитель чемпионата России по CrossFit</li>
+                    <li class="coaches__skill">Опыт — 4 года</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="coaches__item swiper-slide">
+              <picture>
+                <source srcset="img/anna-pavlova@226.jpg" media="(max-width:767px)">
+                <source srcset="img/anna-pavlova@268.jpg" media="(max-width:1023px)">
+                <img src="img/anna-pavlova@260.jpg" alt="Анна Павлова">
+              </picture>
+              <div class="coaches__info">
+                <h3>Анна Павлова</h3>
+                <div class="coaches__about">
+                  <p class="coaches__qualification">CrossFit</p>
+                  <ul class="coaches__skills">
+                    <li class="coaches__skill">Certified Level 2 Trainer</li>
+                    <li class="coaches__skill">Победитель чемпионата России по CrossFit</li>
+                    <li class="coaches__skill">Опыт — 3 года</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="coaches__item swiper-slide">
+              <picture>
+                <source srcset="img/maria-ketova@226.jpg" media="(max-width:767px)">
+                <source srcset="img/maria-ketova@268.jpg" media="(max-width:1023px)">
+                <img src="img/maria-ketova@260.jpg" alt="Мария Кетова">
+              </picture>
+              <div class="coaches__info">
+                <h3>Мария Кетова</h3>
+                <div class="coaches__about">
+                  <p class="coaches__qualification">CrossFit</p>
+                  <ul class="coaches__skills">
+                    <li class="coaches__skill">Certified Level 4 Trainer</li>
+                    <li class="coaches__skill">Победитель чемпионата России по CrossFit</li>
+                    <li class="coaches__skill">Опыт — 7 лет</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="coaches__item swiper-slide">
+              <picture>
+                <source srcset="img/alexander-pashkov@226.jpg" media="(max-width:767px)">
+                <source srcset="img/alexander-pashkov@268.jpg" media="(max-width:1023px)">
+                <img src="img/alexander-pashkov@260.jpg" alt="Александр Пашков">
+              </picture>
+              <div class="coaches__info">
+                <h3>Александр Пашков</h3>
+                <div class="coaches__about">
+                  <p class="coaches__qualification">CrossFit</p>
+                  <ul class="coaches__skills">
+                    <li class="coaches__skill">Certified Level 3 Trainer</li>
+                    <li class="coaches__skill">Победитель чемпионата России по CrossFit</li>
+                    <li class="coaches__skill">Опыт — 6 лет</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>

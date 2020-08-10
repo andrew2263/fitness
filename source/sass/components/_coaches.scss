@@ -1,0 +1,176 @@
+.coaches h2 {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1199px) {
+  .coaches h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .coaches__container {
+    width: 566px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .coaches__container {
+    width: 226px;
+    margin: 0 auto;
+  }
+}
+
+.coaches__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coaches__item {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.coaches__info {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+
+.coaches__item:hover .coaches__info,
+.coaches__item_active .coaches__info {
+  background-color: rgba(16, 38, 84, 0.89);
+  padding: 58px 0;
+  color: #ffffff;
+  transition: all 0.5s;
+
+  & h3 {
+    position: static;
+    top: auto;
+    margin-bottom: 2px;
+  }
+}
+
+.coaches__info h3 {
+  position: absolute;
+  display: block;
+  top: 251px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  z-index: 100;
+}
+
+.coaches__about {
+  display: none;
+  position: absolute;
+  text-align: center;
+}
+
+.coaches__item:hover .coaches__about,
+.coaches__item_active .coaches__about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.coaches__qualification {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #b6bdcc;
+  font-weight: normal;
+}
+
+.coaches__skills {
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 40px;
+}
+
+.coaches__skill {
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: normal;
+  margin-bottom: 13px;
+  text-align: left;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .coaches__item:hover .coaches__info,
+  .coaches__item_active .coaches__info {
+    padding: 48px 0;
+  }
+
+  .coaches__skills {
+    padding-left: 50px;
+  }
+}
+
+.button_prev,
+.button_next {
+  width: 18px;
+  height: 34px;
+  border: none;
+  background-color: transparent;
+}
+
+.button_prev {  
+  background: url("../img/button-prev.svg");
+}
+
+.button_next {
+  background: url("../img/button-next.svg");
+}
+
+.coaches__button_prev {
+  position: absolute;
+  top: 230px;
+  left: -58px;
+}
+
+.coaches__button_next {
+  position: absolute;
+  top: 230px;
+  right: -58px;
+}
+
+@media (max-width: 1199px) {
+  .coaches__button_prev {
+    top: 213px;
+    left: 0;
+  }
+  
+  .coaches__button_next {
+    top: 213px;
+    right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .coaches__button_prev {
+    top: 202px;
+    left: 0;
+  }
+  
+  .coaches__button_next {
+    top: 202px;
+    right: 0;
+  }
+}

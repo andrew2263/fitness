@@ -1,0 +1,121 @@
+.free-workout {
+  padding: 70px 0;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #102654;
+  text-align: left;
+}
+
+.free-workout h2 {
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 43px;
+}
+
+.free-workout__form {
+  width: 410px;
+}
+
+.free-workout__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 27px;
+}
+
+.free-workout__input {
+  display: inline-block;
+  width: 190px;
+  padding-bottom: 10px;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #74819c;
+  transition: all 0.5s;
+
+  &:hover,
+  &:focus,
+  :active {
+    border-bottom: 1px solid #ffffff;
+  }
+}
+
+.free-workout__input::placeholder {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.free-workout__submit {
+  width: 100%;
+  height: 52px;
+  border: 3px solid #ffffff;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover,
+  :focus {
+    text-decoration: underline;
+    transition: all 0.5s;
+  }
+}
+
+@media (max-width: 1199px) {
+  .free-workout {
+    width: 100%;
+    display: block;
+  }
+
+  .free-workout > .container_bottom {
+    padding-left: 88px;
+    padding-right: 118px;
+  }
+
+  .free-workout h2 {
+    margin-bottom: 38px;
+  }
+
+  .free-workout__form {
+    width: 100%;
+  }
+
+  .free-workout__input {
+    width: 206px;
+  }
+}
+
+@media (max-width: 767px) {
+  .free-workout > .container_bottom {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .free-workout__input {
+    width: 100%;
+    margin-bottom: 35px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .free-workout__wrapper {
+    flex-direction: column;
+    margin-bottom: 35px;
+  }
+}
