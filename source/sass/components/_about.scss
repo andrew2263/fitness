@@ -4,11 +4,7 @@
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 @media (max-width: 1199px) {
-=======
-@media (max-width: 1023px) {
->>>>>>> f815cee28346defc5e937dd48d308565eb65ef30
   .about__wrapper {
     flex-direction: column;
   }
@@ -39,11 +35,7 @@
   margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
 @media (max-width: 1199px) {
-=======
-@media (max-width: 1023px) {
->>>>>>> f815cee28346defc5e937dd48d308565eb65ef30
   .about__info {
     margin-left: auto;
     margin-right: auto;
@@ -99,7 +91,6 @@
   top: 289px;
   left: 0;
   z-index: 100;
-<<<<<<< HEAD
   width: 364px;
   height: 228px;
 }
@@ -149,11 +140,6 @@
 }
 
 @media (max-width: 1199px) {
-=======
-}
-
-@media (max-width: 1023px) {
->>>>>>> f815cee28346defc5e937dd48d308565eb65ef30
   .about__images {
     height: 428px;
     width: 100%;
@@ -162,7 +148,6 @@
   .about__video {
     top: 261px;
     left: 206px;
-<<<<<<< HEAD
     width: 266px;
     height: 167px;
   }
@@ -178,8 +163,6 @@
     height: 69px;
     border-radius: 36.5px;
     background-size: 10.5px 12px;
-=======
->>>>>>> f815cee28346defc5e937dd48d308565eb65ef30
   }
 }
 
@@ -196,17 +179,11 @@
   }
 
   .about__video {
-<<<<<<< HEAD
     position: relative;
     top: auto;
     left: auto;
     width: 320px;
     height: 167px;
-=======
-    position: static;
-    top: auto;
-    left: auto;
->>>>>>> f815cee28346defc5e937dd48d308565eb65ef30
   }
 }
 
