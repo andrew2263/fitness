@@ -41,13 +41,12 @@
     ticketsBuyButtons[m].addEventListener('click', function (e) {
       e.preventDefault();
       location.href = 'buy.html';
-    })
+    });
   }
 
-  superButton.addEventListener('click', function(e) {
+  superButton.addEventListener('click', function (e) {
     e.preventDefault();
     location.href = 'super.html';
   });
-
 
 })();

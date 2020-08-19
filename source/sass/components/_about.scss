@@ -115,7 +115,7 @@
     width: 72px;
     height: 72px;
     border-radius: 36px;
-    background: linear-gradient(44.89deg, #003D85 25.38%, #B80027 74.89%);
+    background: linear-gradient(44.89deg, #003d85 25.38%, #b80027 74.89%);
     cursor: pointer;
   }
 
@@ -132,7 +132,7 @@
     border-radius: 50px;
     border: 2px solid rgba(184, 0, 39, 0.4);
     background-color: transparent;
-    background: url("../img/play.svg");
+    background-image: url("../img/play.svg");
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -186,4 +186,3 @@
     height: 167px;
   }
 }
-

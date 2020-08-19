@@ -11,6 +11,7 @@
     margin-bottom: 28px;
   }
 }
+
 .tabs__list {
   display: flex;
   flex-direction: row;
@@ -84,7 +85,7 @@
   transition: all 0.5s;
 
   &::before {
-    background-color: #D10A42;
+    background-color: #d10a42;
     transition: all 0.5s;
   }
 }
@@ -139,7 +140,7 @@
 
 .tickets__item_active > .tickets__border,
 .tickets__item:hover .tickets__border {
-  background: linear-gradient(135deg, #ED0233 17.6%, #003EB7 95.31%);
+  background: linear-gradient(135deg, #ed0233 17.6%, #003eb7 95.31%);
   transition: all 0.5s;
 }
 
@@ -229,7 +230,7 @@
 
 .tickets__buy_active,
 .tickets__buy:hover {
-  background: linear-gradient(97.05deg, #ED0233 17.6%, #003EB7 95.31%);
+  background: linear-gradient(97.05deg, #ed0233 17.6%, #003eb7 95.31%);
   border: none;
   color: #ffffff;
   transition: all 0.5s;
@@ -269,17 +270,18 @@
   right: -242px;
   transform: rotate(150deg);
   z-index: -1;
-  overflow: hidden;
-}
-
-.tickets__barbell img {
-  overflow-x: hidden;
+  width: 322px;
+  height: 385px;
+  background-image: url("../img/barbell_weight.png");
 }
 
 @media (max-width: 1199px) {
   .tickets__barbell {
     bottom: -153px;
     right: -158px;
+    width: 290px;
+    height: 346px;
+    background-image: url("../img/barbell_weight@289.png");
   }
 }
 
