@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Расписание</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <section class="section section__timetable">
+    <div class="container">
+    <h2>Расписание</h2>
+    <article class="timetable">
+        <div class="timetable__time">
+          <div class="timetable__hour">08:00</div>
+          <div class="timetable__hour">12:00</div>
+          <div class="timetable__hour">18:00</div>
+          <div class="timetable__hour">20:00</div>
+        </div>
+        <div class="timetable__wrapper">
+          <div class="timetable__timetable">
+            <div class="timetable__week">
+              <div class="timetable__day" data-weekday="monday">Понедельник</div>
+              <div class="timetable__day" data-weekday="tuesday">Вторник</div>
+              <div class="timetable__day" data-weekday="wednesday">Среда</div>
+              <div class="timetable__day" data-weekday="thursday">Четверг</div>
+              <div class="timetable__day" data-weekday="friday">Пятница</div>
+              <div class="timetable__day" data-weekday="saturday">Суббота</div>
+              <div class="timetable__day" data-weekday="sunday">Воскресенье</div>
+            </div>
+            <div class="timetable__select">
+              <input type="hidden" class="timetable__input" name="week-day">
+              <div class="timetable__head">Понедельник</div>
+              <button class="timetable__button"></button>
+            </div>
+            <div class="timetable__events">
+              <div class="timetable__column timetable__column_active faded in" data-weekday="monday">
+                <div class="timetable__event">CrossFit</div>
+                <div class="timetable__event">Body Sculpt</div>
+                <div class="timetable__event">Functional</div>
+                <div class="timetable__event">Stretching</div>
+              </div>
+              <div class="timetable__column faded" data-weekday="tuesday">
+                <div class="timetable__event">Aerostretching</div>
+                <div class="timetable__event">CrossFit</div>
+                <div class="timetable__event">Body Sculpt</div>
+                <div class="timetable__event">Functional</div>
+              </div>
+              <div class="timetable__column faded" data-weekday="wednesday">
+                <div class="timetable__event">Hot Iron</div>
+                <div class="timetable__event">Aerostretching</div>
+                <div class="timetable__event">CrossFit</div>
+                <div class="timetable__event">Body Sculpt</div>
+              </div>
+              <div class="timetable__column faded" data-weekday="thursday">
+                <div class="timetable__event">Pilates</div>
+                <div class="timetable__event">Hot Iron</div>
+                <div class="timetable__event">Aerostretching</div>
+                <div class="timetable__event">CrossFit</div>
+              </div>
+              <div class="timetable__column faded" data-weekday="friday">
+                <div class="timetable__event">Stretching</div>
+                <div class="timetable__event">Pilates</div>
+                <div class="timetable__event">Hot Iron</div>
+                <div class="timetable__event">Aerostretching</div>
+              </div>
+              <div class="timetable__column faded" data-weekday="saturday">
+                <div class="timetable__event">Functional</div>
+                <div class="timetable__event">Stretching</div>
+                <div class="timetable__event">Pilates</div>
+                <div class="timetable__event">Hot Iron</div>
+              </div>
+              <div class="timetable__column faded" data-weekday="sunday">
+                <div class="timetable__event">Body Sculpt</div>
+                <div class="timetable__event">Functional</div>
+                <div class="timetable__event">Stretching</div>
+                <div class="timetable__event">Pilates</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  <script src="js/timetable.js"></script>
+</body>
+</html>

@@ -14,9 +14,17 @@
   margin-bottom: 70px;
 }
 
+.section__timetable h2 {
+  margin-bottom: 60px;
+}
+
 @media (max-width: 1199px) {
   .section_adv h2 {
     margin-bottom: 40px;
+  }
+
+  .section__timetable h2 {
+    margin-bottom: 50px;
   }
 }
 

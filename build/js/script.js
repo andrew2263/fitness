@@ -30,7 +30,7 @@
     anchorLinks[n].addEventListener('click', function (e) {
       e.preventDefault();
       window.scrollTo({
-        top: document.querySelector(this.getAttribute('href')).offsetTop,
+        top: document.querySelector(e.target.getAttribute('href')).offsetTop,
         left: 0,
         behavior: 'smooth'
       });
