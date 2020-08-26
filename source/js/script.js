@@ -3,7 +3,6 @@
   var tabsLinks = document.querySelectorAll('.tabs__link');
   var tabsItems = document.querySelectorAll('.tabs__item');
   var anchorLinks = document.querySelectorAll('.anchor-link');
-  var ticketsBuyButtons = document.querySelectorAll('.tickets__buy');
 
   for (var i = 0; i < tabsLinks.length; i++) {
     tabsLinks[i].addEventListener('click', function (e) {
@@ -33,13 +32,6 @@
         left: 0,
         behavior: 'smooth'
       });
-    });
-  }
-
-  for (var m = 0; m < ticketsBuyButtons.length; m++) {
-    ticketsBuyButtons[m].addEventListener('click', function (e) {
-      e.preventDefault();
-      location.href = 'buy.html';
     });
   }
 

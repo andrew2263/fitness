@@ -11,7 +11,12 @@ body {
 }
 
 @media (max-width: 1199px) {
+  html {
+    overflow-x: hidden;
+  }
+
   body {
+    width: 100%;
     min-width: 678px;
   }
 }
