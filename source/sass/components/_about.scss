@@ -71,7 +71,12 @@
   }
 
   .about__base {
-    margin-bottom: 22px;
+    margin-bottom: 30px;
+  }
+
+  .about__text {
+    margin-bottom: 7px;
+    max-width: 260px;
   }
 }
 
@@ -103,7 +108,21 @@
   bottom: 0;
   z-index: 150;
   background-color: rgba(20, 54, 122, 0.5);
+}
+
+.about__video-button {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: none;
   background-image: url("../img/play_button@100.png");
+  background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -121,7 +140,9 @@
     height: 167px;
   }
 
-  .about__video-bg {
+  .about__video-button {
+    width: 73px;
+    height: 73px;
     background-image: url("../img/play_button@73.png");
   }
 }

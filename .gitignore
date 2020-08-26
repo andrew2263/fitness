@@ -7,9 +7,9 @@ package-lock.json
 *.pdf
 *.psd
 *.sublime*
-node_modules/
-!node_modules/swiper
-!node_modules/ssr-window
+node_modules/*
+!node_modules/swiper/
+!node_modules/ssr-window/
 layout/
 npm-debug.*
 source/css/*.css

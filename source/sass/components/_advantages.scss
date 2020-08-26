@@ -21,16 +21,20 @@
 }
 
 .advantages__advantage_right {
-  padding-right: 20px;
+  padding-right: 10px;
 }
 
 .advantages__advantage_area {
+  padding-left: 26px;
   align-items: flex-start;
   border-bottom: 2px solid rgba(209, 10, 66, 0.2);
   order: 1;
 }
 
 .advantages__advantage_comfort {
+  position: relative;
+  left: 0;
+  bottom: -6px;
   align-items: flex-end;
   order: 2;
 }
@@ -42,6 +46,10 @@
 }
 
 .advantages__advantage_exp {
+  position: relative;
+  left: 0;
+  bottom: -6px;
+  padding-left: 2px;
   align-items: flex-end;
   order: 5;
 }
@@ -52,10 +60,20 @@
 
 .advantages__number {
   font-size: 71px;
-  line-height: 71px;
+  line-height: 54px;
   font-weight: 700;
-  margin-bottom: 10px;
-  color: #2e35ac; /*заменить*/
+  margin-bottom: 8px;
+  background-image: linear-gradient(135deg, #c80d48, #0042ca);
+  background-clip: text;
+  color: transparent;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .advantages__number {
+    background-clip: border-box;
+    background-image: none;
+    color: #0042ca;
+  }
 }
 
 .advantages__units {
@@ -69,7 +87,7 @@
   font-size: 22px;
   line-height: 22px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .advantages__text {
@@ -97,10 +115,20 @@
     margin-bottom: 45px;
     border-bottom: none;
     order: 2;
+    padding-left: 10px;
   }
 
   .advantages__advantage_comfort {
+    position: relative;
+    left: 0;
+    bottom: 0;
     order: 4;
+  }
+
+  .advantages__advantage_exp {
+    position: relative;
+    left: 0;
+    bottom: 0;
   }
 
   .advantages__advantage {
@@ -115,19 +143,20 @@
 
   .advantages__advantage_right {
     padding-right: 0;
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   .advantages__number {
     font-size: 58px;
     line-height: 58px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
   }
 
   .advantages__about h3 {
+    padding-top: 6px;
     font-size: 20px;
     line-height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
   }
 
   .advantages__about {
@@ -145,7 +174,12 @@
   }
 
   .advantages__advantage_left {
-    margin-bottom: 35px;
+    margin-bottom: 32px;
+  }
+
+  .advantages__advantage_parking {
+    padding-left: 0;
+    margin-bottom: 43px;
   }
 
   .advantages__about h3 {
@@ -154,7 +188,7 @@
 
   .advantages__feature {
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
   }
 }
 
@@ -196,7 +230,7 @@
     padding: 35px 130px;
     height: auto;
     width: 442px;
-    margin-bottom: 45px;
+    margin-bottom: 42px;
   }
 
   .advantages__number_main {
@@ -218,14 +252,18 @@
     position: relative;
     min-width: 320px;
     padding: 38px 70px;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
   }
 
   .advantages__number_main {
-    margin-bottom: 5px;
+    margin-bottom: 0;
   }
 
   .advantages__feature_main {
     margin-bottom: 15px;
+  }
+
+  .advantages__text_main {
+    margin-bottom: 4px;
   }
 }

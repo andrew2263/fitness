@@ -141,8 +141,24 @@
     overflow-x: scroll;
   }
 
+  .timetable__wrapper::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .timetable__wrapper::-webkit-scrollbar-thumb {
+    background-color: #ed0233;
+  }
+
+  .timetable__wrapper::-webkit-scrollbar-track {
+    background-color: #feebef;
+  }
+
   .timetable__time {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+  }
+
+  .timetable__events {
+    padding-bottom: 6px;
   }
 
   .timetable__timetable {
@@ -205,6 +221,10 @@
 
   .timetable__day_mobile {
     cursor: pointer;
+  }
+
+  .timetable__events {
+    padding-bottom: 0;
   }
 
   .timetable__select {

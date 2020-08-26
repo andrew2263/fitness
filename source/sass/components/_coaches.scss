@@ -121,6 +121,10 @@
   .coaches__skills {
     padding-left: 50px;
   }
+
+  .coaches__info h3 {
+    top: 235px;
+  }
 }
 
 .button_prev,
@@ -167,10 +171,16 @@
   .coaches__button_prev {
     top: 202px;
     left: 0;
+    width: 10px;
+    height: 19px;
+    background-size: cover;
   }
 
   .coaches__button_next {
     top: 202px;
     right: 0;
+    width: 10px;
+    height: 19px;
+    background-size: cover;
   }
 }

@@ -1,10 +1,11 @@
 .contacts {
-  padding: 70px 0;
+  padding: 70px 0 65px;
   width: 50%;
   text-align: left;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  border-top: 1px solid #74819c;
   background-color: #ffffff;
 }
 
@@ -13,6 +14,9 @@
 }
 
 .contacts h2 {
+  position: relative;
+  top: 0;
+  left: -5px;
   text-align: left;
   margin-bottom: 45px;
 }
@@ -62,6 +66,10 @@
   font-style: normal;
 }
 
+.contacts__text a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 1199px) {
   .contacts {
     width: 100%;
@@ -70,6 +78,7 @@
 
   .contacts h2 {
     margin-bottom: 38px;
+    left: 0;
   }
 
   .contacts__wrapper {

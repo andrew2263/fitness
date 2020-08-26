@@ -1,5 +1,5 @@
 .free-workout {
-  padding: 70px 0;
+  padding: 70px 0 65px;
   width: 50%;
   display: flex;
   flex-direction: row;
@@ -22,13 +22,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 27px;
+  margin-bottom: 29px;
+}
+
+.free-workout__label {
+  display: none;
 }
 
 .free-workout__input {
   display: inline-block;
   width: 190px;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 14px;
   line-height: 16px;
@@ -38,6 +42,7 @@
   border: none;
   outline: none;
   border-bottom: 1px solid #74819c;
+  border-radius: 0;
   transition: all 0.5s;
 
   &:hover,
@@ -55,7 +60,7 @@
 
 .free-workout__submit {
   width: 100%;
-  height: 52px;
+  height: 55px;
   border: 3px solid #ffffff;
   background-color: transparent;
   text-transform: uppercase;
@@ -66,6 +71,7 @@
   letter-spacing: 0.05em;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 0;
   transition: all 0.5s;
 
   &:hover,
@@ -105,9 +111,13 @@
     padding-left: 0;
   }
 
+  .free-workout h2 {
+    margin-bottom: 40px;
+  }
+
   .free-workout__input {
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 38px;
 
     &:last-child {
       margin-bottom: 0;
@@ -117,5 +127,9 @@
   .free-workout__wrapper {
     flex-direction: column;
     margin-bottom: 35px;
+  }
+
+  .free-workout__submit {
+    margin-bottom: 5px;
   }
 }

@@ -4,7 +4,6 @@
   var tabsItems = document.querySelectorAll('.tabs__item');
   var anchorLinks = document.querySelectorAll('.anchor-link');
   var ticketsBuyButtons = document.querySelectorAll('.tickets__buy');
-  var superButton = document.querySelector('.super__request');
 
   for (var i = 0; i < tabsLinks.length; i++) {
     tabsLinks[i].addEventListener('click', function (e) {
@@ -43,10 +42,5 @@
       location.href = 'buy.html';
     });
   }
-
-  superButton.addEventListener('click', function (e) {
-    e.preventDefault();
-    location.href = 'super.html';
-  });
 
 })();

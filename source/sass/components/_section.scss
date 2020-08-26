@@ -20,11 +20,17 @@
 
 @media (max-width: 1199px) {
   .section_adv h2 {
-    margin-bottom: 40px;
+    margin-bottom: 43px;
   }
 
   .section__timetable h2 {
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section_adv h2 {
+    margin-bottom: 45px;
   }
 }
 

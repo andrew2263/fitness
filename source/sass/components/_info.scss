@@ -3,6 +3,24 @@
   background: conic-gradient(from 130.31deg at 16.03% 39.06%, #b80027 -46.69deg, #003d85 32.24deg, #b80027 313.31deg, #003d85 392.24deg);
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .info {
+    background: linear-gradient(45deg, #003d85, #b80027);
+  }
+}
+
+@supports (-ms-ime-align:auto) {
+  .info {
+    background: linear-gradient(45deg, #003d85, #b80027);
+  }
+}
+
+@-moz-document url-prefix("") {
+  .info {
+    background: linear-gradient(45deg, #003d85, #b80027);
+  }
+}
+
 @media (max-width: 1199px) {
   .info {
     padding: 82px 0;
@@ -81,6 +99,7 @@
   .info__main h1 {
     font-size: 78px;
     line-height: 78px;
+    margin-bottom: 43px;
   }
 }
 
@@ -112,7 +131,7 @@
 @media (max-width: 767px) {
   .info__buy {
     width: 290px;
-    height: 65px;
+    height: 59px;
   }
 }
 
