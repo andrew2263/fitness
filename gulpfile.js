@@ -84,10 +84,11 @@ gulp.task("html", function () {
 
 gulp.task("copy", function () {
   return gulp.src([
+    "source/css/**",
     "source/fonts/**/*.{woff,woff2}",
     "source/img/**",
     "source/js/**",
-    "source/node_modules/**",
+    //"source/node_modules/**",
     "source//*.ico"
     ], {
       base: "source"

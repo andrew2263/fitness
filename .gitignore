@@ -8,6 +8,7 @@ package-lock.json
 *.psd
 *.sublime*
 node_modules/*
+swiper_2020/*
 layout/
 npm-debug.*
 source/css/*.css
