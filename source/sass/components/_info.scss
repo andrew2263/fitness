@@ -103,7 +103,7 @@
   }
 }
 
-.info__buy {
+.info__link {
   display: inline-flex;
   width: 230px;
   height: 57px;
@@ -117,19 +117,23 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 
+  &_first {
+    margin-bottom: 25px;
+  }
+
   &:hover {
     text-decoration: underline;
   }
 }
 
 @media (max-width: 1199px) {
-  .info__buy {
+  .info__link {
     width: 183px;
   }
 }
 
 @media (max-width: 767px) {
-  .info__buy {
+  .info__link {
     width: 290px;
     height: 59px;
   }
