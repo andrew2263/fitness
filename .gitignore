@@ -7,7 +7,6 @@
 *.psd
 *.sublime*
 *.zip
-gulp-template-master.zip
 node_modules/*
 swiper_2020/*
 build/
